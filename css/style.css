@@ -78,7 +78,7 @@ main {
 
 .info {
     position: relative;
-    background-image: url(/Projetos/Lading-Page-SysRa/imgs/madeira2.jpg);
+    background-image: url(../imgs/madeira2.jpg);
     width: 100vw;
     height: 65vh;
     margin-top: 20px;
