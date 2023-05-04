@@ -1,136 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    font-family: 'Roboto Condensed', sans-serif;    
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
 }
-header{
-    width: 100vw;
-    height: 55px;
-    display: flex;
+header {
+  width: 100vw;
+  height: 70px;
+  display: block;
+  position: fixed;
+  z-index: 300;
+  background-color: beige;
+}
+
+nav {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
   
 }
 
-nav{
-    display: flex;
-    width: 100vw;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.logo{
-    width: 50px;
-}
-
-nav ul {
-    display: flex;
-    gap: 20px;
-}
-nav ul li{
-    display: flex;
-    font-size: 30px;
-}
-nav ul li a{
-    display: flex;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+.logo {
+  width: 40px;
 }
 
 .container-logo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
-.container-logo h1{
-   font-size: 30px;
-   
-
-   color: rgb(0, 0, 0);
-}
-body{
-    background-color: rgb(231, 230, 230);
+body {
+  background-size: 20%;
+  background-repeat: repeat;
 }
 
 .green {
-    color: rgb(23, 194, 0);
-    font-family: 'Fira Sans', sans-serif;
+  color: #075f40;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
 }
 
 h1 {
-    display: flex;
-    font-family: 'Fira Sans', sans-serif;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  width: 100vw;
 
-    
-    gap: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .info {
-    position: relative;
-    background-image: url(../imgs/madeira2.jpg);
-    width: 100vw;
-    height: 65vh;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    padding: 0px 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 750px;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background: rgb(217,217,217);
+  background: linear-gradient(270deg, rgba(217,217,217,1) 13%, rgba(255,255,255,1) 100%); 
+
 }
 
-.container-info {
-    width: 40%;
-    height: 90%;
-    background-color: rgb(7, 48, 12);
-    display: flex;
-    flex-direction: column;
-    padding: 30px 30px;
-    font-size: 30px;
-
-    border-radius: 30px;
-    gap: 30px;
-    
+.about {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 30px;
+  border: #075f40 solid 1px;
 }
 
 
 
-.container-info h1 {
-    font-family: 'Fira Sans', sans-serif;
-    color: rgb(255, 255, 255);
-    display: block;
+.about p {
+  font-family: 'Poppins', sans-serif;
+  color: #075f40;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 60px;
+  display: block;
+  font-weight: 400;
+  letter-spacing: -3px;
+  text-transform: uppercase;
 }
 
-.container-info p {
-    font-family: 'Fira Sans', sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: black;
-    border-radius: 20px;
-    padding: 30px;
-    font-size: 80%;
-    display: block;
+.about span {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
 }
 
 .info img {
-    width: auto;
-    height: 90%;
-    
+  width: auto;
+  height: 80%;
 }
 
-.dark-body {
-    background-color: #070707;
+.linha {
+  width: 5%;
+  height: 1px;
+  border: 1px solid black;
 }
 
-.dark-nav{
+.home {
+  width: 95vw;
+  padding: 30px 90px;
+  color: #075f40;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  visibility: hidden;
+}
+.container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.title-content {
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  letter-spacing: -2px;
+  font-weight: 500
+}
+
+.text-content {
+  text-align: center;
+  color: black;
+  width: 70%;
+  font-size: 36px;
+}
+
+.img-content {
+  width: 50%;
+  display: block;
+}
+
+.container-base {
+  width: 100vw;
+  padding: 70px 60px;
+  color: #ffffff;
+  background-color: #003f22;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  visibility: hidden;
+  position: relative;
+}
+.container-base p{
     color: white;
+    width: 500px;
+    height: 400px;
+    font-size: 30px;
+}
+
+#img-vendas{
+    display: none;
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 20px;
+    border-radius: 30px;
+    width: 500px;
+}
+
+#img-vendas.ativo{
+  display: flex;
+}
+.list-beneficios {
+  display: flex;
+  position: absolute;
+  color:  white;
+  top: 10px;
+  width: 100vw;
+  justify-content: center;
+  gap: 30px;
+  font-size: 30px;
+  list-style: none ;
+}
+
+.btn-vendas {
+  cursor: pointer;
+}
+.links-lista {
+  display: flex;
+  gap: 30px;
+  font-size: 19px;
+}
+.cardapio {
+  flex-direction: row-reverse;
+  color: #003f22;
+  background-color: white;
+}
+
+.cardapio p{
+  flex-direction: row-reverse;
+  color: #003f22;
+ 
+}
+footer {
+  width: 100vw;
+  height: 90px;
+  background-color: white;
+}
+
+.beneficios {
+  display: none;
+}
+
+.beneficios.ativo {
+  display: flex;
 }

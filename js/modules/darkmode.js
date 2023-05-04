@@ -1,5 +1,5 @@
 const body = document.body;
-const navBar = document.querySelectorAll('.navs');
+const navBar = document.querySelectorAll('');
 const logo = document.querySelectorAll('nav h1');
 const temaBtn = document.querySelector('[data-button="tema"]')
 

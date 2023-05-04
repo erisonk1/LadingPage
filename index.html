@@ -1,39 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="icon" href="" />
     <title>SysRa - IFCE</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="container-logo"><img class="logo" src="./imgs/logo.svg" alt="">
-            <h1>Sys <span class="green">Ra</h1></div>
-            <ul>
-                <li><a class="navs" href="">Login</a></li>
-                <li><a class="navs" href="">Cardapio</a></li>
-                <li><a class="navs" href="">Sobre</a></li>
-                <li><a class="navs" href="#" data-button="tema">Tema</a></li>
-            </ul>
-            
-        </nav>
+      <nav>
+        <div class="container-logo">
+          <img class="logo" src="./imgs/logo.svg" alt="" />
+          <h1>Sys <span class="green">Ra</span></h1>
+        </div>
+        <div id="links">
+          <ul class="links-lista">
+            <li>Home</li>
+            <li>Benefícios</li>
+            <li>Cardápio</li>
+            <li>Reservas</li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="info">
-            <div class="container-info">
-                <h1>Restaurante Acadêmico</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis excepturi ipsa repellendus. Quo est labore aut repellat nobis dicta necessitatibus aperiam libero minus, cum natus distinctio ea recusandae? Est, suscipit!</p>
-            </div>
-            <img src="./imgs/cfg.png" alt="">
-        </section>
-
+      <section class="info">
+        <div class="about">
+          <p>O <span>Total</span> Controle do restaurante da <span>sua escola!</span></p>
+        </div>
+        <img src="./imgs/cfg.png" alt="" />
+      </section>
+      <section class="container-base beneficios anime ativo">
+        <div class="container-content">
+          <h2 class="title-content">Benefício 1</h2>
+          <p class="text-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
+            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
+            officia fugiat porro?
+          </p>
+        </div>
+        <img
+          class="img-content ativo img-benef"
+          id="img-vendas"
+          src="./imgs/chart2.svg"
+          alt=""
+        />
+         <img
+          class="img-content img-benef"
+          id="img-vendas"
+          src="./imgs/chart.svg"
+          alt=""
+        />
+         <img
+          class="img-content img-benef"
+          id="img-vendas"
+          src="./imgs/chart2.svg"
+          alt=""
+        />
+      </section>
+      <section class="container-base beneficios anime">
+        <div class="container-content">
+          <h2 class="title-content">Benefício 2</h2>
+          <p class="text-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
+            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
+            officia fugiat porro?
+          </p>
+        </div>
+        <img
+          class="img-content ativo img-benef"
+          id="img-vendas"
+          src="./imgs/chart2.svg"
+          alt=""
+        />
+         <img
+          class="img-content img-benef"
+          id="img-vendas"
+          src="./imgs/chart.svg"
+          alt=""
+        />
+         <img
+          class="img-content img-benef"
+          id="img-vendas"
+          src="./imgs/chart2.svg"
+          alt=""
+        />
+      </section>
+      <section class="container-base beneficios anime">
+        <div class="container-content">
+          <h2 class="title-content">Benéficio 3</h2>
+          <p class="text-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
+            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
+            officia fugiat porro?
+          </p>
+        </div>
+        <img
+          class="img-content ativo img-benef"
+          id="img-vendas"
+          src="./imgs/chart2.svg"
+          alt=""
+        />
+         <img
+          class="img-content img-benef"
+          id="img-vendas"
+          src="./imgs/chart.svg"
+          alt=""
+        />
+         <img
+          class="img-content img-benef"
+          id="img-vendas"
+          src="./imgs/chart2.svg"
+          alt=""
+        />
+      </section>
+      <section class="container-base cardapio anime">
+        <div class="container-content">
+          <h2 class="title-content">Cardápio</h2>
+          <p class="text-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
+            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
+            officia fugiat porro?
+          </p>
+        </div>
+        <img
+          class="img-content ativo"
+          id="img-vendas"
+          src="./imgs/homepage.jpg"
+          alt=""
+        />
+      </section>
+      <section class=" container-base reservas anime">
+        <div class="container-content">
+          <h2 class="title-content">Reservas</h2>
+          <p class="text-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
+            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
+            officia fugiat porro?
+          </p>
+        </div>
+        <img
+          class="img-content ativo"
+          id="img-vendas"
+          src="./imgs/homepage.jpg"
+          alt=""
+        />
+      </section>
+      <footer>a</footer>
     </main>
-   
-    
-    <script type="module" src="./js/script.js"></script>
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
