@@ -5,17 +5,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  list-style: none;
   font-family: "Roboto Condensed", sans-serif;
   text-decoration: none;
 }
 header {
   width: 100vw;
-  height: 70px;
+  height: 60px;
   display: block;
   position: fixed;
   z-index: 300;
-  background-color: beige;
+  background-color: white;
 }
 
 nav {
@@ -25,7 +25,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   gap: 20px;
-  
+
+}
+a {
+  color: black;
 }
 
 .logo {
@@ -123,22 +126,23 @@ main {
 
 .home {
   width: 95vw;
-  padding: 30px 90px;
+  padding: 70px 90px;
   color: #075f40;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  visibility: hidden;
+ 
 }
 .container-content {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
+  
 }
 
 .title-content {
@@ -146,18 +150,33 @@ main {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   letter-spacing: -2px;
-  font-weight: 500
+  font-weight: 700
 }
 
 .text-content {
   text-align: center;
   color: black;
   width: 70%;
-  font-size: 36px;
+  font-size: 50px;
+  color: white;
+  width: 700px;
+  height: 30%;
+  font-weight: 600;
+  border: white 1px solid;
+  border-radius: 30px;
+  letter-spacing: -3px;
+  padding: 20px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
-
 .img-content {
-  width: 50%;
+  width: 90%;
+  display: block;
+}
+.img-content.img-benef {
+  width: 25%;
   display: block;
 }
 
@@ -170,22 +189,24 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  visibility: hidden;
   position: relative;
 }
-.container-base p{
-    color: white;
-    width: 500px;
-    height: 400px;
-    font-size: 30px;
+
+
+.container-base.beneficios {
+  width: 100vw;
+
+  color: #ffffff;
+  background-color: #003f22;
 }
+
 
 #img-vendas{
     display: none;
     border: 1px rgb(255, 255, 255) solid;
     padding: 20px;
     border-radius: 30px;
-    width: 500px;
+    width: 900px;
 }
 
 #img-vendas.ativo{
@@ -224,8 +245,15 @@ main {
 }
 footer {
   width: 100vw;
-  height: 90px;
+  height: 40px;
   background-color: white;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .beneficios {
@@ -234,4 +262,17 @@ footer {
 
 .beneficios.ativo {
   display: flex;
+}
+
+.cliente {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cliente > .container-content {
+  height: 100px;
+
+}
+p {
+  font-family: 'Poppins', sans-serif;
 }

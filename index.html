@@ -18,116 +18,70 @@
         </div>
         <div id="links">
           <ul class="links-lista">
-            <li>Home</li>
-            <li>Benefícios</li>
-            <li>Cardápio</li>
-            <li>Reservas</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre-nav">Sobre</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#reservas">Reservas</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section class="info">
+      <section class="info" id="home">
         <div class="about">
           <p>O <span>Total</span> Controle do restaurante da <span>sua escola!</span></p>
         </div>
         <img src="./imgs/cfg.png" alt="" />
       </section>
-      <section class="container-base beneficios anime ativo">
+      <section class="color" id="sobre-nav">
+        <section class="container-base beneficios ativo anime">
+          <div class="container-content">
+            <h2 class="title-content">Como funciona?</h2>
+            <p class="text-content">
+              A solução automatiza o processo de elaboração de cardápios saudáveis, com foco no valor nutricional e desperdício zero.
+            </p>
+          </div>
+          <img
+            class="img-content ativo img-benef"
+            src="./imgs/chart2.svg"
+            alt=""
+          />
+        </section>
+        <section class="container-base beneficios anime">
         <div class="container-content">
-          <h2 class="title-content">Benefício 1</h2>
-          <p class="text-content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
-            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
-            officia fugiat porro?
+          <h2 class="title-content">Dados</h2>
+          <p class="text-content text-benef">
+            Mais segurança para os responsáveis com limites de gastos por dia e restrição de produtos específicos do cardápio
           </p>
         </div>
         <img
           class="img-content ativo img-benef"
-          id="img-vendas"
-          src="./imgs/chart2.svg"
-          alt=""
-        />
-         <img
-          class="img-content img-benef"
-          id="img-vendas"
-          src="./imgs/chart.svg"
-          alt=""
-        />
-         <img
-          class="img-content img-benef"
-          id="img-vendas"
           src="./imgs/chart2.svg"
           alt=""
         />
       </section>
-      <section class="container-base beneficios anime">
+      <section class="container-base beneficios anime" >
         <div class="container-content">
-          <h2 class="title-content">Benefício 2</h2>
+          <h2 class="title-content">Praticidade</h2>
           <p class="text-content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
-            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
-            officia fugiat porro?
+            Diferentes formas de comprar na cantina, que reduzem filas e aumentam a segurança
           </p>
         </div>
         <img
           class="img-content ativo img-benef"
-          id="img-vendas"
-          src="./imgs/chart2.svg"
-          alt=""
-        />
-         <img
-          class="img-content img-benef"
-          id="img-vendas"
-          src="./imgs/chart.svg"
-          alt=""
-        />
-         <img
-          class="img-content img-benef"
-          id="img-vendas"
           src="./imgs/chart2.svg"
           alt=""
         />
       </section>
-      <section class="container-base beneficios anime">
+
+    </section>
+  </section>
+      <section class="container-base cardapio anime" id="beneficios">
         <div class="container-content">
-          <h2 class="title-content">Benéficio 3</h2>
+          <h2 class="title-content">Benefícios</h2>
           <p class="text-content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
-            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
-            officia fugiat porro?
-          </p>
-        </div>
-        <img
-          class="img-content ativo img-benef"
-          id="img-vendas"
-          src="./imgs/chart2.svg"
-          alt=""
-        />
-         <img
-          class="img-content img-benef"
-          id="img-vendas"
-          src="./imgs/chart.svg"
-          alt=""
-        />
-         <img
-          class="img-content img-benef"
-          id="img-vendas"
-          src="./imgs/chart2.svg"
-          alt=""
-        />
-      </section>
-      <section class="container-base cardapio anime">
-        <div class="container-content">
-          <h2 class="title-content">Cardápio</h2>
-          <p class="text-content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-            perferendis voluptas error, sunt omnis culpa iste nesciunt! Aperiam
-            consequuntur fuga tempore saepe pariatur, culpa cumque maxime, dicta
-            officia fugiat porro?
+            - Controle de estoques e distribuição automatizada<br>
+            - Teste de aceitabilidade
           </p>
         </div>
         <img
@@ -137,7 +91,7 @@
           alt=""
         />
       </section>
-      <section class=" container-base reservas anime">
+      <section class=" container-base Cliente anime" id="reservas">
         <div class="container-content">
           <h2 class="title-content">Reservas</h2>
           <p class="text-content">
@@ -154,7 +108,7 @@
           alt=""
         />
       </section>
-      <footer>a</footer>
+      <footer><p>© NDS - 2023</p></footer>
     </main>
     <script src="./js/script.js"></script>
   </body>
