@@ -133,7 +133,7 @@ main {
   position: relative;
   padding: 100px 0px;
 }
-
+ 
 .title-content {
   font-size: 60px;
   font-family: 'Karla', sans-serif;
@@ -163,7 +163,7 @@ main {
   width: 90%;
   display: block;
 }
-.img-content.img-benef {
+.img-sobre {
   width: 400px;
   display: block;
 }
@@ -183,7 +183,7 @@ main {
 }
 
 
-.container-base.beneficios {
+.container-base.sobre {
   width: 100vw;
   color: #ffffff;
   background: rgb(7,95,64);
@@ -191,7 +191,7 @@ main {
 }
 
 
-#img-vendas{
+.img-dash-desktop{
     display: none;
     border: 1px rgb(255, 255, 255) solid;
 
@@ -199,19 +199,8 @@ main {
     width: 900px;
 }
 
-#img-vendas.ativo{
+.img-dash-desktop.ativo{
   display: flex;
-}
-.list-beneficios {
-  display: flex;
-  position: absolute;
-  color:  white;
-  top: 10px;
-  width: 100vw;
-  justify-content: center;
-  gap: 30px;
-  font-size: 30px;
-  list-style: none ;
 }
 
 .btn-vendas {
@@ -222,23 +211,23 @@ main {
   gap: 30px;
   font-size: 19px;
 }
-.cardapio {
+.beneficios {
   flex-direction: row-reverse;
   color: #003f22;
   background-color: white;
 }
 
-.cardapio p{
+.beneficios p{
   flex-direction: row-reverse;
   color: #003f22;
  
 }
 
-.beneficios {
+.sobre {
   display: none;
 }
 
-.beneficios.ativo {
+.sobre.ativo {
   display: flex;
 }
 
@@ -255,14 +244,6 @@ p {
   font-family: 'Karla', sans-serif;
 }
 
-#img-vendas.img-reserva {
-  width: 280px;
-  border: none;
-
-}
-
-
-
 .img-dash.img-dash-phone {
 
   display: none;
@@ -270,7 +251,7 @@ p {
 }
 
 .img-dash.img-dash-phone.ativo {
-  width: 70%;
+  width: 500px;
   display: flex;
 }
 

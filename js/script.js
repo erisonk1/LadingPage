@@ -1,4 +1,4 @@
-const imgBeneficios = document.querySelectorAll(".beneficios");
+const imgBeneficios = document.querySelectorAll(".sobre");
 const container = document.querySelectorAll(".container-base")
 let idx = 0
 
@@ -18,7 +18,7 @@ setInterval(() => {
   carrossel();
 
 
-},9000);
+},8000);
 
 function initScrollSuave() {
   const linksInternos = document.querySelectorAll('a[href^="#"]');

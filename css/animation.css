@@ -20,7 +20,7 @@
 }
 
 .img-dash.ativo {
-  width: 15%;
+
   display: flex;
   animation: transition 1s ;
 }
