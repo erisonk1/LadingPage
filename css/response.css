@@ -1,0 +1,13 @@
+@media (max-width: 1170px) {
+
+   
+}
+
+@media (max-width: 884px) {
+    .info {
+        height: 600px;
+    }
+    .info img {
+        display: none;
+    }
+}

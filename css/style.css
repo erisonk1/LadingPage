@@ -73,12 +73,12 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
+  padding: 30px;
   height: 750px;
-  
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 200px;
+
   background: rgb(217,217,217);
   background: linear-gradient(270deg, rgba(217,217,217,1) 13%, rgba(255,255,255,1) 100%); 
 
@@ -86,7 +86,7 @@ main {
 
 .about {
   width: 500px;
-  height: 400px;
+
   display: flex;
   flex-direction: column;
   position: relative;
@@ -127,7 +127,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   position: relative;
@@ -294,4 +294,29 @@ footer {
   align-items: center;
   font-family: 'Karla', sans-serif;
   font-weight: 600;
+}
+
+.reservas .container-content p {
+  font-size: 60px;
+  width: 400px;
+  border: none;
+
+}
+
+.dados {
+  font-size: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 60px;
+  gap: 20px;
+}
+
+.dados span{
+  font-size: 50px;
+}
+
+.reservas {
+  background: rgb(7,95,64);
+  background: linear-gradient(90deg, rgba(7,95,64,1) 14%, rgba(0,63,34,1) 100%);
 }
