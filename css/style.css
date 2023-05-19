@@ -306,3 +306,7 @@ footer {
   background: rgb(7,95,64);
   background: linear-gradient(90deg, rgba(7,95,64,1) 14%, rgba(0,63,34,1) 100%);
 }
+
+button{
+  display: none;
+}

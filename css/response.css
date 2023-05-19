@@ -1,10 +1,35 @@
+@media (max-width: 1655px) {
+.container-base.beneficios {
+    gap: 90px;
+}
+}
+
+@media (max-width: 1579px) {
+    .img-dash-desktop {
+        width: 700px;
+
+    }
+}
 @media (max-width: 1431px) {
 
-    .img-dash.ativo {
-        width: 700px;
+    .container-base.beneficios {
+        gap: 0px;
     }
 
 
+}
+
+@media (max-width: 1282px) {
+    .container-base.beneficios {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .img-dash-desktop {
+
+
+    }
 }
 
 @media (max-width: 1170px) {
@@ -16,6 +41,27 @@
         gap: 130px;
     }
    
+}
+@media (max-width: 1155px) {
+    .container-base {
+        gap: 70px;
+        align-items: center;
+    }
+
+    .img-content {
+        width: 300px;
+    }
+}
+
+@media (max-width: 927px) {
+    .container-base {
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .img-content {
+
+    }
 }
 
 
@@ -34,9 +80,8 @@
         padding: 0;
         gap: 50px;
     }
-    .container-content {
-        padding: 0;
-        
+    .container-base.clientes{
+        gap: 0;
     }
 
     .img-content.img-sobre {
@@ -74,7 +119,11 @@
         display: flex;
       }
 }
-
+@media (max-width: 497px) {
+    .container-base {
+        gap: 0;
+    }
+}
 
 
 
@@ -123,4 +172,65 @@
         display: flex;
       }
     
+}
+
+/* BAR */
+
+
+@media (max-width: 605px) {
+    ul {
+        
+        flex-direction: column;
+        position: fixed;
+        top: 55px;
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        right: 0;
+        border-radius: 10px;
+        color: white;
+        z-index: 20;
+        transition: .5s;
+    }
+    ul.ativo {
+        display: flex !important;
+    }
+
+    li a{
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    li {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    nav{   
+        z-index: 200;
+        gap: 0;
+        justify-content: space-between;
+        padding: 0px 45px;
+    }
+    .container-logo {
+        justify-content: center;
+    }
+    .container-logo {
+        justify-content: center;
+    }
+
+    button {
+        background-image: url(../imgs/menu-buguer-open.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40px;
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        transition: 0.5s all;
+        display: block;
+    }
+
+    button.ativo {
+        background-image: url(../imgs/menu-buguer-close.svg);
+        background-size: 25px;
+    }
 }

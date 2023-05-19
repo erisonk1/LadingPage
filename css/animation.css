@@ -15,6 +15,19 @@
   }
 }
 
+@keyframes transitionUl {
+  from{
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+    
+  } 
+
+  to{
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
 .color {
   background-color: #003f22;
 }
@@ -22,6 +35,16 @@
 .img-dash.ativo {
 
   display: flex;
-  animation: transition 1s ;
+  animation: transitionUl 1s ;
+}
+
+ul.ativo {
+  animation: transitionUl .5s ease-in-out;
+}
+
+ul.desativado {
+  display: none;
+  animation: transitionUl .5s reverse;
+  transition: 0.5s;
 }
 
