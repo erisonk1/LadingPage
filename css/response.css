@@ -147,6 +147,10 @@
     .img-dash.ativo {
         width: 310px !important; 
     }
+    .img-content {
+        width: 250px !important;
+        padding-bottom: 20px;
+    }
 }
 @media (max-width: 370px) {
 
@@ -179,7 +183,7 @@
 
 @media (max-width: 605px) {
     ul {
-        
+        display: none !important;
         flex-direction: column;
         position: fixed;
         top: 55px;

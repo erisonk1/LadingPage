@@ -42,9 +42,4 @@ ul.ativo {
   animation: transitionUl .5s ease-in-out;
 }
 
-ul.desativado {
-  display: none;
-  animation: transitionUl .5s reverse;
-  transition: 0.5s;
-}
 

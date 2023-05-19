@@ -18,7 +18,7 @@ setInterval(() => {
   carrossel();
 
 
-},2000);
+},8000);
 
 function initScrollSuave() {
   const linksInternos = document.querySelectorAll('a[href^="#"]');
@@ -60,7 +60,7 @@ setInterval(() => {
  carrossel2();
 
 
-},7000);
+}, 4000);
 
 const btn = document.querySelector('button');
 const nav = document.querySelector('ul');
@@ -69,7 +69,7 @@ const nav = document.querySelector('ul');
 function menu(){
   btn.classList.toggle('ativo')
   nav.classList.toggle('ativo')
-  nav.classList.toggle('desativado')
+
 }
 
 btn.addEventListener('click', menu);
